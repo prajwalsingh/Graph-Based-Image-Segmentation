@@ -1,5 +1,5 @@
-# Graph-Based-Image-Segmentation
-Classical method for image segmentation using graph based algorithm [1]
+# Graph Based Image Segmentation
+Classical method for image segmentation using graph based algorithm [1] implementation using python.
 
 #### References
 
@@ -15,8 +15,23 @@ Int J Comput Vis 104, 154–171 (2013).
 [https://algorithms.tutorialhorizon.com/disjoint-set-union-find-algorithm-union-by-rank-and-path-
 compression/]
 
+#### Required Libraries and Tools
+
+* opencv 3.0+
+* numpy
+* jupyter notebook
+
+#### Notes
+
+* The method proposed here for segmentation of images runs in pseudo-polynomial time.
+* Current implementation in python is slow, generating result takes atleat 10-15 minutes.
+* Minimum spanning tree with path compression algorithm used to implement MST
+and segmentation tree.
+
 #### Results
 
-|||
-|-|-|
-|||
+|![](images/res_1.png)|
+|-|
+|![](images/res_2.png)|
+||
+|![](images/res_3.png)|
